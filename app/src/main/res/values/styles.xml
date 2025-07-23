@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlertBoxHeading">
+        <item name="fontFamily">@font/custom_font_medium</item>
+        <item name="android:textSize">@dimen/ssp24</item>
+        <item name="android:textColor">@color/button_text_color_black</item>
+    </style>
+    <style name="AlertBoxBody">
+        <item name="fontFamily">@font/custom_font</item>
+        <item name="android:textSize">@dimen/ssp12</item>
+        <item name="android:textColor">@color/button_text_color_black</item>
+    </style>
+
+    <style name="ButtonWithBlueBackground" parent="Widget.Material3.Button">
+        <item name="android:textSize">@dimen/ssp14</item>
+        <item name="fontFamily">@font/custom_font_bold</item>
+        <item name="textFillColor">@color/button_text_color_white</item>
+    </style>
+
+    <style name="Heading">
+        <item name="fontFamily">@font/custom_font_medium</item>
+        <item name="android:textSize">@dimen/ssp16</item>
+        <item name="android:textColor">@color/button_text_color_black</item>
+    </style>
+
+    <style name="SpecialXiaomiSettingsButtonWithRedBackground" parent="Widget.Material3.Button">
+        <item name="android:textSize">@dimen/ssp12</item>
+        <item name="fontFamily">@font/custom_font_bold</item>
+        <item name="textFillColor">@color/button_text_color_white</item>
+    </style>
+
+
+    <style name="SubHeading">
+        <item name="fontFamily">@font/custom_font_medium</item>
+        <item name="android:textSize">@dimen/ssp16</item>
+        <item name="android:textColor">@color/button_text_color_black</item>
+    </style>
+
+    <style name="Body">
+        <item name="fontFamily">@font/custom_font</item>
+        <item name="android:textSize">@dimen/ssp14</item>
+        <item name="android:textColor">@color/button_text_color_black</item>
+    </style>
+    <style name="AppbarTitle" parent="Widget.Material3.Toolbar">
+        <item name="fontFamily">@font/custom_font_medium</item>
+        <item name="android:textSize">@dimen/ssp20</item>
+        <item name="titleTextColor">@color/button_text_color_white</item>
+        <item name="android:background">@color/primary_brand_color</item>
+    </style>
+</resources>

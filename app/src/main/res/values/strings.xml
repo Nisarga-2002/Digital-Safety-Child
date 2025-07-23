@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Digital Safety - Child</string>
+    <string name="brand_name">Digital Safety</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="monitor_app_bar_title">Permission Overview</string>
+    <string name="location_app_bar_title">Location Permission</string>
+    <string name="body_text">Tracking your location</string>
+    <string name="header_text">Location</string>
+
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="ok">OK\n</string>
+    <string name="device_administrator">Device Administrator Permission</string>
+    <string name="location">Location Permission</string>
+    <string name="location_steps">Follow below steps to permit location Permission</string>
+    <string name="administrator_description">On the next screen, please activate the device administrator. This permission is used to prevent your children from uninstalling the application without your authorization.</string>
+    <string name="location_description">Enable location access to stay informed about your children\'s whereabouts</string>
+
+    <string name="location_permission_alert_dialog_heading">Allow all the time</string>
+    <string name="location_permission_alert_dialog_description_one">On the next screen, please set location permission to “Allow all the time” to continuously track your child\'s location.</string>
+    <string name="location_permission_alert_dialog_description_two">On the next screens:\n1. Ensure “Precise location” is selected.\n2. Choose “While using the app.”\n3. Finally, select “Allow all the time” for continuous tracking of your child\'s location.</string>
+    <string name="location_permission_alert_dialog_description_three">On the next screens:\n1. Choose “While using the app.”\n2. Finally, select “Allow all the time” for continuous tracking of your child\'s location.</string>
+    <string name="enable">Enable\n</string>
+
+    <string name="overlay">Overlay Permission</string>
+    <string name="overlay_description">On the next screen, please allow the overlay permission. This permission is used to display a friendly blocking message instead of harmful Internet content.</string>
+    <string name="display_pop_up_in_background">Display Pop-Up In Background</string>
+    <string name="pop_up_background_description">On the next screen, please enable Display Pop-Up In Background to always keep your family safe from harmful Internet content.</string>
+
+    <string name="camera">Camera Permission</string>
+    <string name="camera_description">On the next Screen, Please allow the camera permission. This permission is to capture the picture when thief try to unlock the device</string>
+    <string name="admin_description">Protect Digital Protection from being easily uninstalled by activating the device administrator.</string>
+
+</resources>

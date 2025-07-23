@@ -1,0 +1,47 @@
+[versions]
+agp = "8.7.0"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+coreSplashscreen = '1.0.1'
+googleServices = '4.4.1'
+crashlytics = '2.9.9'
+firestore = '25.0.0'
+fDatabase ='21.0.0'
+location = '20.0.0'
+maps = '18.1.0'
+transportRuntime = "4.0.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-core = { group = "androidx.core",name = "core-splashscreen", version.ref = "coreSplashscreen"}
+firebase-analytics = { group="com.google.firebase", name="firebase-analytics"}
+firebase-crashlytics = { group="com.google.firebase", name="firebase-crashlytics"}
+firebase-firestore = { group="com.google.firebase", name="firebase-firestore", version.ref="firestore"}
+firebase-auth = { group="com.google.firebase", name="firebase-auth"}
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebase-database-ktx = { group = "com.google.firebase", name= "firebase-database-ktx",version.ref = "fDatabase"}
+firebase-database = { group = "com.google.firebase", name= "firebase-database",version.ref = "fDatabase"}
+play-services-location = {group ="com.google.android.gms", name="play-services-location",version.ref="location"}
+play-services-maps = {group ="com.google.android.gms", name="play-services-maps",version.ref="maps"}
+transport-runtime = { group = "com.google.android.datatransport", name = "transport-runtime", version.ref = "transportRuntime" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref ="googleServices" }
+firebase-crashlytics = { id ="com.google.firebase.crashlytics", version.ref = "crashlytics"}
+
